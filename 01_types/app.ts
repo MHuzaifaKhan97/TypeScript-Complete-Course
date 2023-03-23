@@ -17,14 +17,13 @@ button?.addEventListener("click", function(){
 // 1. String: string
 // 2. Number: number
 // 3. Boolean: boolean
-// let person: string;
-// person = "Huzaifa";
-// console.log(person);
-// let arr: string[] = ["Apple","Orange"];
-// // arr.push(2)  => not allowed
-// arr.push("PineApple")
 
-// let arr2: number[] = [1,2,3,4];
-// arr2.push(5)
+let person: string;
+person = "Huzaifa";
+console.log(person);
+let arr: string[] = ["Apple","Orange"];
+// arr.push(2)  => not allowed
+arr.push("PineApple")
 
-// export {};
+let arr2: number[] = [1,2,3,4];
+arr2.push(5)
