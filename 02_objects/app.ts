@@ -47,3 +47,15 @@ const addition = function(val1: number, val2: number, calc: Calc){
 }
 }
 console.log(addition(10,5,"add"));
+
+// Tuples
+
+// Tuples is fixed length array
+
+let gender: [string,string] = ["Male","Female"]
+// gender[2] = "shakoor"; // not allowed
+gender.push("Not Specified") // allowed
+
+let admin : [number, string] = [1,"admin"]
+
+let error: [number, string] = [404, "Not Found"]
