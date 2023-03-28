@@ -4,8 +4,6 @@ function getProducts() {
         .then(res => res.json()).then((data) => {
         let products = [];
         products = data.products;
-        // products = JSON.parse(data);
-        // console.log(products);
         products.forEach((product) => {
             let mainBody = document.getElementById("productTable");
             let tr = document.createElement("tr");

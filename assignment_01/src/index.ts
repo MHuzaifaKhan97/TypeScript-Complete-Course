@@ -19,8 +19,6 @@ function getProducts(){
       
       let products: ProductModel[] =  [];
       products = data.products;
-      // products = JSON.parse(data);
-      // console.log(products);
 
       products.forEach((product) => {
          let mainBody = document.getElementById("productTable")!;
