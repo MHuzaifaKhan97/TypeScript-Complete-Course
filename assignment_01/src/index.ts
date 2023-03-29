@@ -55,6 +55,12 @@ function getProducts(){
  
          mainBody.appendChild(tr);
       });
+   }).catch(e => {
+    console.log(e);
+      let errorBody = document.getElementById("error")!;
+      let errorText = document.createTextNode(e.toString().split(":")[1])
+      errorBody.appendChild(errorText);
+
    })
 }
 
