@@ -5,3 +5,4 @@
 ### Class 03: Creating Typescript project, Classes, Access Modifier, readonly 
 ### Class 04: Getter/Setter, Inheritence, Abstract Methods, Singletons
 ### Class 05: Multiple types variabble, Union Types, Intersection Type, Interfaces, Type Guards
+### Class 06: Type casting, Generics, Promises
