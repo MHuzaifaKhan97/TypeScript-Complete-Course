@@ -44,7 +44,7 @@ function merge<T extends object,U extends object>(objA :T, objB: U) {
 
 // const merged = merge({"name":"Huzaifa"},{id:1234}) 
 // the problem using <T,U> is k koi bh value ko wo allow kardega e.g:
-const merged = merge({"name":"Huzaifa"},1234)
+const merged = merge({"name":"Huzaifa"},{"id":1232})
 //  to avoid this 
 
 console.log(merge.name);
